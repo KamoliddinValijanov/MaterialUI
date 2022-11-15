@@ -7,14 +7,12 @@ import Accord from "./components/Accord";
 import About from "./components/About";
 import SliderList from "./components/SliderList";
 import Footer from "./components/Footer";
-// import DarkMode from "./components/DarkMode";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Cards />
-      {/* <DarkMode/> */}
       <div className="component ">
         <SliderList />
       </div>
